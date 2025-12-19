@@ -6,7 +6,7 @@ public class Main {
         Pet pet2 = new Pet(2, "Misty", "Cat", 2);
         pet1.displayInfo();
         pet2.displayInfo();
-        Adopter adopter = new Adopter(101, "Zhansaya Armanovna", "+7 700 123 45 67");
+        Adopter adopter = new Adopter(101, "Meiyrova Aidana", "+7 747 447 1076");
         adopter.adoptPet(pet1);
         pet1.displayInfo();
         pet2.displayInfo();
