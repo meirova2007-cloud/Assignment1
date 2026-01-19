@@ -1,4 +1,4 @@
-import java.util.Scanner;
+/*import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -54,5 +54,21 @@ public class Main {
         System.out.println(shelter.getAvailablePets());
 
         sc.close();
+    }
+}
+
+ */
+
+public class Main {
+    public static void main(String[] args) {
+        pet_adoption.addPet("Tom", "Cat", 2, 1);
+
+        pet_adoption.getAllPets();
+
+        pet_adoption.updatePetAge(1, 5);
+
+        pet_adoption.deletePet(1);
+
+        pet_adoption.getAllPets();
     }
 }
